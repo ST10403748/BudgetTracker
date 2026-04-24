@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- res/values/strings.xml -->
+    <string name="register_title">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone Number</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register_button">Register</string>
+    <string name="app_logo">App Logo</string>
+    <string name="app_name">app_name</string>
+
+    <string name="register_instruction">Create your account to get started</string>
+
+</resources>

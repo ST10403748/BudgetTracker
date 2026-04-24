@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="32dp"
+    android:gravity="center_vertical">
+
+    <TextView android:text="💰 Budget Tracker"
+        android:textSize="28sp" android:textStyle="bold"
+        android:gravity="center" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_marginBottom="40dp"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Username" android:layout_marginBottom="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="text" android:maxLines="1"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Password" android:layout_marginBottom="24dp"
+        app:passwordToggleEnabled="true">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:inputType="textPassword" android:maxLines="1"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Login" android:layout_marginBottom="12dp"/>
+
+    <Button android:id="@+id/btnRegister"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Create Account" style="@style/Widget.Material3.Button.OutlinedButton"/>
+</LinearLayout>
